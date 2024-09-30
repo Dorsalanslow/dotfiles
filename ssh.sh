@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/bin/zsh
+
 if [ "$1" = "" ]; then
   echo "Run this script with your email address: ./ssh.sh mats@example.com" && exit 1
 fi
