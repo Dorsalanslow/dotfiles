@@ -140,3 +140,6 @@ eval "$(pyenv init -)"
 source ~/Source/.dotfiles/zsh/.p10k.zsh
 
 cd ~/Source
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /opt/homebrew/bin/terraform terraform

@@ -10,3 +10,6 @@ add_to_path "$HOME/.node/bin"
 
 # Use project binaries before globals
 add_to_path "node_modules/.bin"
+
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
