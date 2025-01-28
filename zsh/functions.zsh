@@ -32,3 +32,9 @@ function dataurl() {
 	fi
 	echo "data:${mimeType};base64,$(openssl base64 -in "$1" | tr -d '\n')";
 }
+
+function azlogin() {
+	az config set core.login_experience_v2=off
+	az login --allow-no-subscriptions --tenant $TENANT_ID --output none
+	az config set core.login_experience_v2=on
+}
