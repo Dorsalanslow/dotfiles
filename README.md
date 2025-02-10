@@ -7,9 +7,9 @@
 
 ```sh
 # Set name and email that should be used in git/npm configs
-AUTHOR_NAME="Mats Andreassen"
-AUTHOR_EMAIL="email@example.com"
-AUTHOR_GITHUB="matsand"
+AUTHOR_NAME="Andreas Neslow"
+AUTHOR_EMAIL="andreas_n1@hotmail.com"
+AUTHOR_GITHUB="Dorsalanslow"
 
 # Create git source directory
 mkdir ~/Source

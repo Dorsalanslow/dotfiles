@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 if [ "$1" = "" ]; then
-  echo "Run this script with your email address: ./ssh.sh mats@example.com" && exit 1
+  echo "Run this script with your email address: ./ssh.sh andreas_n1@hotmail.com" && exit 1
 fi
 
 echo "Generating a new GitHub SSH key for $1..."
