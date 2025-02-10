@@ -15,7 +15,7 @@ AUTHOR_GITHUB="Dorsalanslow"
 mkdir ~/Source
 
 # Clone repo
-git clone https://github.com/MatsAnd/dotfiles.git ~/Source/.dotfiles
+git clone https://github.com/Dorsalanslow/dotfilest ~/Source/.dotfiles
 
 # Open folder and run setup
 cd ~/Source/.dotfiles && ./setup.sh
